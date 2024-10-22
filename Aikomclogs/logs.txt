@@ -1,0 +1,10 @@
+[20:45:32] [main/INFO]: Loading for game Minecraft 1.16.5
+[20:45:33] [main/WARN]: Mod file {file-path} has mods that were not found
+[20:45:34] [main/ERROR]: Caught exception from {mod-name}
+java.lang.RuntimeException: Error code 1 encountered
+    at net.minecraft.client.main.Main.main(Main.java:155) [Main.class:?]
+    at {mod-name}.init({mod-file}.java:25) ~[mod-file.jar:?]
+    at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:575) ~[Loader.class:?]
+    at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593) ~[Loader.class:?]
+    at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593) ~[Loader.class:?]
+[20:45:35] [main/FATAL]: Failed to start the Minecraft client due to error code 1
